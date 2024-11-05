@@ -1,0 +1,262 @@
+@media (max-width:768px) {
+    /* start header section */
+    header{
+        width: 100%;
+        height: 100vh;
+    }
+    header .text{
+        font-size: large;
+    }
+
+    header .text h1{
+        width: 70%;
+       font-size: 20px;
+    }
+
+    header .text p{
+   
+        font-size: large;
+     }
+
+     .aside{
+        background-color: #fff;
+        padding: 4rem 2rem;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        visibility: hidden;
+        transition: visibility 0.7s;
+        z-index: 99999999999;
+    }
+    /* end header section */
+
+    
+/* start about section */
+.container_ .first,
+.container_ .middle,
+.container_ .last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container_ .first,
+.container_ .last{
+    gap: 6rem;
+}
+
+
+.about h2.heading::after{
+left: 30%;
+}
+/* end about section */
+
+/*  start team section  */
+.team h2.heading::after{
+    left: 30%;
+}
+.team{
+    width: 100%;
+}
+.team-container{
+   flex-direction: column;
+   gap: 2rem;
+   justify-content: center;
+   align-items: center;
+   width: 80%;
+   }
+
+   .team-container .card{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height:400px;
+    justify-content: center;
+    align-items: center;
+  
+}
+   
+/*  end team section  */
+
+/* start contact section */
+
+.contact .container-contact{
+    height: 100vh;
+    width: 100%;
+    background-color: transparent;
+ 
+    
+}
+
+.contact .form-content{
+    width: 85%;
+    height: 65%;
+    background-color: rgb(251, 249, 249);
+     position: absolute;
+    top: 25%;
+    left: 5%;
+    padding: 4rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0rem 0.5rem gray;
+
+}
+.contact .form-content h2{
+    margin-bottom: 1rem;
+}
+
+.contact .form-content .input-field{
+    margin-bottom: 2rem;
+       width: 90%;
+}
+
+.contact .form-content button{
+    width: 90%;
+}
+
+/* end contact section */
+
+/* start footer section */
+
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     gap: 2rem;
+     width: 90%;
+ }
+
+ footer .container p{
+text-align: center;
+font-size: medium;
+}
+
+footer .container .footer-social-icons ul{
+    display: flex;
+    gap: 1rem;
+}
+/* end footer section */
+
+}
+
+@media (max-width:922px){
+   
+/* start header section */
+    header{
+        width: 100%;
+        height: 100vh;
+    }
+/* end header section */
+   
+/* start about section */
+
+.about h2.heading::after{
+    left: 42%;
+    }
+
+.container_ .first,
+.container_ .middle,
+.container_ .last{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.container_ .first,
+.container_ .last{
+    gap: 4rem;
+}
+
+/* end about section */
+
+
+
+/*  start team section  */
+.team h2.heading::after{
+    left: 40%;
+}
+.team-container{
+    flex-wrap: wrap;
+   gap: 2rem;
+   }
+
+   .team-container .card{
+    width: 30%;
+    height:400px;
+    margin-right: 2rem;
+
+  
+}   
+
+/* start contact section */
+
+.contact .container-contact{
+    height: 100vh;
+    width: 100%;
+    background-color: transparent;
+ 
+    
+}
+
+.contact .form-content{
+    width: 85%;
+    height: 65%;
+    background-color: rgb(251, 249, 249);
+     position: absolute;
+    top: 25%;
+    left: 5%;
+    padding: 4rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0rem 0.5rem gray;
+
+}
+.contact .form-content h2{
+    margin-bottom: 1rem;
+}
+
+.contact .form-content .input-field{
+    margin-bottom: 2rem;
+       width: 90%;
+}
+
+.contact .form-content button{
+    width: 90%;
+}
+
+/* end contact section */
+
+
+/* start footer section */
+
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     gap: 2rem;
+     width: 90%;
+ }
+
+ footer .container p{
+text-align: center;
+font-size: medium;
+}
+
+footer .container .footer-social-icons ul{
+    display: flex;
+    gap: 1rem;
+}
+/* end footer section */
+
+
+}
