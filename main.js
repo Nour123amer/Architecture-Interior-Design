@@ -16,3 +16,10 @@ document.querySelector('.fa-xmark').addEventListener('click',()=>{
 })
 
 // setinterval
+
+let snippet = document.querySelector('.snipper-container');
+snippet.style.display ='block'; 
+
+setTimeout(function(){
+    snippet.style.display ='none'; 
+},2000)

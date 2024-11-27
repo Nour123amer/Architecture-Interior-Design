@@ -58,14 +58,25 @@ header{
     justify-content: center;
     align-items: center;
     background-color:  #262626;
-    display: none;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9999; 
+   
 }
 .snipper-container i{
     color: var(--icon-color);
     font-size: large;
     font-size: 42px;
     animation: snipper 2.0s infinite;
+    position: absolute;
+    left: 48%;
+    top: 48%;
     
+}
+
+.show{
+    display: block;
 }
 
 header .text{
@@ -136,7 +147,7 @@ header .icons_{
     flex-direction: column;
     justify-content: space-between;
     /* align-items: center; */
-    width: 400px;
+    width: 350px;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -190,7 +201,7 @@ aside .fa-xmark{
 }
 
 aside .social-icons ul{
-    gap: 3.5rem;
+    gap: 2.5rem;
     justify-content: center;
 }
 
@@ -266,7 +277,8 @@ bottom: -2px;
 }
 .container{
     width: 80%;
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
   
 }
 
@@ -323,11 +335,12 @@ bottom: -2px;
 
 /* start team section */
 .team{
-    margin: 6rem ;
+    margin:6rem 0rem ;
 }
 .team-container{
  display: flex;
  justify-content: space-between;
+ align-items: center;
  margin-block: 4rem;
  margin-top: 4rem;
 }
@@ -446,6 +459,7 @@ margin-bottom: 2px;
     padding: 4rem ;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     box-shadow: 0 0rem 0.5rem gray;
 }

@@ -1,8 +1,19 @@
 @media (max-width:768px) {
     /* start header section */
+  
     header{
+        background-image: url(./../images/bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
         width: 100%;
         height: 100vh;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        animation: none;
+        overflow: hidden;
     }
     header .text{
         font-size: large;
@@ -87,24 +98,24 @@ left: 30%;
     height: 100vh;
     width: 100%;
     background-color: transparent;
- 
+    left: 0%;
     
 }
 
 .contact .form-content{
-    width: 85%;
+    width: 90%;
     height: 65%;
     background-color: rgb(251, 249, 249);
      position: absolute;
     top: 25%;
-    left: 5%;
-    padding: 4rem ;
+    left: 7.5%;
+    padding: 2rem ;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0rem 0.5rem gray;
-
+   
 }
 .contact .form-content h2{
     margin-bottom: 1rem;
@@ -112,11 +123,15 @@ left: 30%;
 
 .contact .form-content .input-field{
     margin-bottom: 2rem;
-       width: 90%;
+       width: 80%;
+}
+.contact .form-content .input-field input{
+    width: 100%;
 }
 
 .contact .form-content button{
-    width: 90%;
+    width: 80%;
+
 }
 
 /* end contact section */
@@ -145,12 +160,16 @@ footer .container .footer-social-icons ul{
 
 }
 
-@media (max-width:922px){
+@media (max-width:992px){
    
 /* start header section */
     header{
         width: 100%;
         height: 100vh;
+    }
+
+    .aside{
+        width: 300px;
     }
 /* end header section */
    
